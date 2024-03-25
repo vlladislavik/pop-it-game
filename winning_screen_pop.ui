@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="last_result">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>440</y>
+      <width>521</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Upheaval Pro</family>
+      <pointsize>36</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(85, 170, 255);
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Ваш результат: 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_new_game">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>430</y>
+      <width>421</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Upheaval Pro</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(255, 179, 48);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>Играть снова</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="background">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1280</width>
+      <height>720</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../Yandex Lyceum/background_for_menu.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="max_result">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>110</y>
+      <width>521</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Upheaval Pro</family>
+      <pointsize>26</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 255, 127);
+border-radius: 15px;</string>
+    </property>
+    <property name="text">
+     <string>Максимальный результат: 0</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_menu">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>110</y>
+      <width>421</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Upheaval Pro</family>
+      <pointsize>40</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(170, 85, 255);
+border-radius: 30px;</string>
+    </property>
+    <property name="text">
+     <string>Главное меню</string>
+    </property>
+   </widget>
+   <zorder>background</zorder>
+   <zorder>last_result</zorder>
+   <zorder>btn_new_game</zorder>
+   <zorder>max_result</zorder>
+   <zorder>btn_menu</zorder>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
